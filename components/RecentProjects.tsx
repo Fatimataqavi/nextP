@@ -21,7 +21,11 @@ function RecentProjects() {
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                   <img src="/bg.png" alt="bg-img" />
                 </div>
-                <img src={img} alt={title} className="z-10 absolute h-[80%] w-[500px] max-w-[500px] bottom-9 rounded-lg" />
+                <img
+                  src={img}
+                  alt={title}
+                  className="z-10 absolute h-[80%] w-[500px] max-w-[500px] bottom-9 rounded-lg sm:h-[200px] sm:w-[310px] sm:max-w-[310px]"
+                />
               </div>
               <h1 className="font-bold lg:tex-2xl md:text-xl text-base line-clamp-1">
                 {title}
