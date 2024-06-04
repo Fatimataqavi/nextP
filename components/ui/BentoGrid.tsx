@@ -52,6 +52,8 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     navigator.clipboard.writeText("fatimataqavi@yahoo.com");
+
+    setCopied(true);
   };
 
   return (
@@ -144,7 +146,7 @@ export const BentoGridItem = ({
                     autoplay: copied,
                     animationData,
                     rendererSettings: {
-                      preserveAspectRatio: "xMidYMix slice",
+                      preserveAspectRatio: "xMidYMid slice",
                     },
                   }}
                 />
